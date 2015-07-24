@@ -17,3 +17,13 @@
 ```sh
 $ ansible-playbook -i hosts playbook.yml
 ```
+
+Если вы используете с sudo, нужно добавить флаг `--ask-sudo-pass`
+
+```sh
+ansible-playbook -i hosts playbook.yml -vvv --ask-sudo-pass
+```
+
+Если возникают сложности, то:
+* http://docs.ansible.com/ansible/playbooks.html
+* `man ansible-playbook`
