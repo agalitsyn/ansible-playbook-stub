@@ -1,0 +1,9 @@
+---
+
+# Role from local gitlab
+  - src: git@gitlab.2gis.local:ansible/<role-name>.git
+    scm: git
+    version: master
+
+# Role from github
+  - src: <role-name>
