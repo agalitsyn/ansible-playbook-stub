@@ -1,6 +1,6 @@
 # Ansible playbook stub
 
-В группе http://gitlab.2gis.local/ansible есть роли, которые должны объединяться в playbook'и.
+На сайте [https://galaxy.ansible.com](https://galaxy.ansible.com) есть роли, которые должны объединяться в playbook'и.
 Чтобы применить даже одну роль нужно писать обертку, которая сможет запускаться через `ansible-playbook`.
 
 Этот репозиторий призван немного ускорить этот процесс.
